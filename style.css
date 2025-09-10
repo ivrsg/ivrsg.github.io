@@ -36,12 +36,6 @@ header h1 {
     color: #ffffff;
 }
 
-header p {
-    color: #a0c0ff;
-    font-size: 1.1rem;
-}
-
-
 main {
     padding: 20px 0;
 }
@@ -71,14 +65,15 @@ p {
     font-size: 1.05rem;
 }
 
-
 ul {
     list-style: none;
     margin-left: -5px;
 }
+
 ol {
     margin-left: 15px;
 }
+
 .contacts li,
 .achievements li {
     margin-bottom: 16px;
@@ -88,7 +83,6 @@ ol {
 .contacts li {
     color: #c0d8ff;
 }
-
 
 a {
     color: #8a75f5;
@@ -102,14 +96,10 @@ a:hover {
     text-decoration: underline;
 }
 
-
 footer {
     padding: 40px 0 20px;
     color: #8098b8;
     font-size: 0.9rem;
     border-top: 1px solid #3a4a7a;
     text-align: center;
-}
-.link-site{
-text-align: center
 }
