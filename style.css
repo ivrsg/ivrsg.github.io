@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background: #0a0d1a;
+    color: #e0f0ff;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 0 60px;
+    border-bottom: 2px solid #8a75f5;
+}
+
+.photo img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #5bc0f5;
+    box-shadow: 0 0 15px rgba(91, 192, 245, 0.2);
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 25px 0 10px;
+    color: #ffffff;
+}
+
+header p {
+    color: #a0c0ff;
+    font-size: 1.1rem;
+}
+
+
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #8a75f5;
+    margin-bottom: 25px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #3a4a7a;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #5bc0f5;
+    margin: 30px 0 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: -5px;
+}
+ol {
+    margin-left: 15px;
+}
+.contacts li,
+.achievements li {
+    margin-bottom: 16px;
+    padding: 8px 0;
+}
+
+.contacts li {
+    color: #c0d8ff;
+}
+
+
+a {
+    color: #8a75f5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #5bc0f5;
+    text-decoration: underline;
+}
+
+
+footer {
+    padding: 40px 0 20px;
+    color: #8098b8;
+    font-size: 0.9rem;
+    border-top: 1px solid #3a4a7a;
+    text-align: center;
+}
+.link-site{
+text-align: center
+}
